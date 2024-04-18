@@ -11,7 +11,7 @@
 
     
    
-    <a href=<?=$model["link"]?>> <img src=<?=$model["thumbnail"]?>/></a>
+    <a href=<?=$model["link"]?>> <img src="<?=$model["thumbnail"]?>" /></a>
     </section>
 </body>
 </html>
