@@ -6,12 +6,12 @@
     <title><?=$model["name"]?></title>
 </head>
 <body>
-    <h1>???hier komt de name van het model????</h1>
+    <h1><?=$model["name"]?></h1>
     <section>
 
     
    
-    <a href="???hier komt de link van het model????"> <img src="???hier komt de thumbnail van het model????"/></a>
+    <a href=<?=$model["link"]?>> <img src=<?=$model["thumbnail"]?>/></a>
     </section>
 </body>
 </html>
